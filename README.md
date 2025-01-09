@@ -1,7 +1,7 @@
 # TRM（Token Reward Model）
 
 ## 主体思想
-我们发现近期奖励模型从ORM变为PRM，其演进有逐步变小的趋势；同时，受到最近关键token相关研究的启发，我们大胆预测，rm的最终形态应该是TRM（Token Reward Model）。
+我们发现近期奖励模型从ORM变为PRM，其演进有逐步变小的趋势；同时，受到最近关键token相关研究的启发，我们大胆预测，RM的最终形态应该是TRM（Token Reward Model）。
 
 ## 优点
 1. 可以完成在线式的关键token训练。
