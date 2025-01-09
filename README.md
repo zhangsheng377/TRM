@@ -24,8 +24,8 @@ graph TD
 ```mermaid
 graph TD
     BASE_MODEL[BASE_MODEL] --> next_token[next_token]
-    BASE_MODEL[BASE_MODEL] --> output_layer[output_layer]
-    output_layer[output_layer] --> token_weight[token_weight]
+    BASE_MODEL[BASE_MODEL] --> OUTPUT_LAYER[OUTPUT_LAYER]
+    OUTPUT_LAYER[OUTPUT_LAYER] --> token_weight[token_weight]
 ```
 loss = cross_entropy(predict,label) * weight
 <br>可以用softmax/关键token算法，加强对weight的约束。
