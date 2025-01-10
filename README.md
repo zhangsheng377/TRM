@@ -10,6 +10,7 @@
 ## RM演进路线
 ```mermaid
 graph TD
+    SFT[SFT] --> ORM[ORM]
     ORM[ORM] --> RL[RL]
     RL[RL] --> RLHF[RLHF]
     RL[RL] --> DPO[DPO]
